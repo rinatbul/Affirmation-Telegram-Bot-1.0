@@ -27,7 +27,7 @@ func getCatFact() (string, error) {
 }
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("7049108756:AAG0asZQFef8Dt-ZcuPpbzNmJ1DIzD_Vy7g")
+	bot, err := tgbotapi.NewBotAPI("---")
 	if err != nil {
 		log.Panic(err)
 	}
